@@ -20,7 +20,8 @@ Bash
 
 Bash
 
-**git add .**
+**git add .**  
+
 git add . 会把当前目录下的所有修改都添加到暂存区（Staging Area），准备好下一步的提交。
 
 ## 第二步：提交修改
@@ -31,7 +32,8 @@ git add . 会把当前目录下的所有修改都添加到暂存区（Staging Ar
 
 Bash
 
-**git commit -m "你的提交信息"**
+**git commit -m "你的提交信息"**  
+
 一个好的提交信息应该简短明了，说明你这次修改的目的，比如“修复了登录界面的一个 bug”或“添加了新功能”。
 
 ## 第三步：推送到 GitHub
@@ -42,7 +44,9 @@ Bash
 
 Bash
 
-**git push origin main**
+**git push origin main**  
+
+
 origin 是远程仓库的别名，通常默认指向 GitHub 上的仓库。
 
 main 是你当前所在的分支名。
